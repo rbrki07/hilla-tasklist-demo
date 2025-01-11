@@ -1,0 +1,10 @@
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Implement user authentication', 0, 'Jane Doe', '2024-12-05', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Fix bug in payment gateway integration', 1, 'John Smith', '2024-12-02', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Review pull request for new feature', 0, 'Emily White', '2024-12-01', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Refactor legacy code for user profile module', 2, 'Alex Johnson', '2024-11-28', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Update API documentation for v2', 1, 'Sam Lee', '2024-12-10', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Write unit tests for authentication service', 0, 'Chris Kim', '2024-12-07', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, description, status, assignee, due_date, created_at, updated_at) VALUES ('Deploy new version of the mobile app to App Store', 'Use version 1.2.21', 2, 'Rachel Park', '2024-11-27', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Optimize database queries for product search', 1, 'Michael Tran', '2024-12-03', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Implement logging and monitoring for payment system', 0, 'Olivia Green', '2024-12-04', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');
+INSERT INTO tasks (title, status, assignee, due_date, created_at, updated_at) VALUES ('Design and implement homepage UI update', 2, 'David Brown', '2024-11-30', '2024-11-05T08:15:00Z', '2024-11-15T12:30:00Z');

@@ -24,7 +24,7 @@ export default function MainLayout() {
   }, [currentTitle]);
 
   return (
-    <AppLayout primarySection="drawer">
+    <AppLayout primarySection="drawer" drawerOpened={false}>
       <div slot="drawer" className="flex flex-col justify-between h-full p-m">
         <header className="flex flex-col gap-m">
           <span className="font-semibold text-l">tasklist</span>
