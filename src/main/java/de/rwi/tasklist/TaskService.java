@@ -7,5 +7,5 @@ import com.vaadin.hilla.crud.CrudRepositoryService;
 @BrowserCallable
 @AnonymousAllowed
 public class TaskService extends CrudRepositoryService<Task, Long, TaskRepository> {
-    
+
 }

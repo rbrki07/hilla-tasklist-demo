@@ -1,9 +1,18 @@
+import { ViewConfig } from '@vaadin/hilla-file-router/types.js';
 import { AutoGrid } from '@vaadin/hilla-react-crud';
 import { Button, GridActiveItemChangedEvent, HorizontalLayout, VerticalLayout } from '@vaadin/react-components';
 import Task from 'Frontend/generated/de/rwi/tasklist/Task';
 import TaskModel from 'Frontend/generated/de/rwi/tasklist/TaskModel';
 import { TaskService } from 'Frontend/generated/endpoints';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router';
+
+export const config: ViewConfig = {
+  title: 'Tasks',
+  menu: {
+    icon: 'vaadin:clipboard-check',
+    title: 'Tasks',
+  },
+};
 
 export default function TasksView() {
   const navigate = useNavigate();

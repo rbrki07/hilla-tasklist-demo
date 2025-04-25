@@ -6,7 +6,7 @@ import Task from 'Frontend/generated/de/rwi/tasklist/Task';
 import TaskModel from 'Frontend/generated/de/rwi/tasklist/TaskModel';
 import { TaskService } from 'Frontend/generated/endpoints';
 import { useCallback, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router';
 
 export const config: ViewConfig = {
   menu: { exclude: true },

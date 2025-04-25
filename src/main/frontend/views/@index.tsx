@@ -3,10 +3,10 @@ import { VerticalLayout } from '@vaadin/react-components';
 
 export const config: ViewConfig = {
   menu: { exclude: true },
-  title: 'Simple Task Application',
+  title: 'Home',
 };
 
-export default function HelloHillaView() {
+export default function HomeView() {
   return (
     <VerticalLayout theme="margin">
       <h2>Welcome to Simple Task Application</h2>
