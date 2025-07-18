@@ -5,7 +5,6 @@ import java.time.LocalDateTime;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.jspecify.annotations.Nullable;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -27,17 +26,14 @@ public class Task {
     @NotBlank
     private String title;
 
-    @Nullable
     @Column(length = 1024)
     private String description;
 
     @NotNull
     private Status status;
 
-    @Nullable
     private String assignee;
 
-    @Nullable
     private LocalDate dueDate;
 
     @CreationTimestamp
